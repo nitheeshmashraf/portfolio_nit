@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap');
+
+$highlight:#64FFDA;
+$lowlight:#8892B0;
+$normcolor:#E6F1FF;
+$bodycolor:rgba(41, 61, 90, 0.99);
+$fontfam: 'IBM Plex Serif', serif;
+
+
+body {
+  background-color: $bodycolor;
+  color: $normcolor;
+  font-family: $fontfam;
+  margin: 0;
+}
+
+

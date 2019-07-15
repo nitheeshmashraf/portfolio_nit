@@ -1,0 +1,49 @@
+
+$highlight:#64FFDA;
+$lowlight:#8892B0;
+$normcolor:#E6F1FF;
+$bodycolor:rgba(41, 61, 90, 0.99);
+$fontfam: 'IBM Plex Serif', serif;
+
+.header {
+  // background: #8892B0;
+  top: 0;
+  padding: 30px;
+  display: inline;
+}
+
+.content {
+  padding: 16px;
+  width: 80%;
+  text-align: left;
+  margin: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 102px;
+}
+
+
+#logo{
+  font-size: 2em;
+  color: $highlight;
+}
+
+ul{
+  float: right;
+  li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+  }
+}
+.nav_inner{
+  width: 80%;
+}
